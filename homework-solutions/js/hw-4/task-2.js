@@ -16,8 +16,8 @@
   */
  const minAge = 18;
  const maxAge = 60;
- let age = "ASD";
- if (isNaN(age)) {
+ let age = true;
+ if (isNaN(age) || typeof(age) != 'number') {
   console.log("Incorrect data type");
   return;
 }
